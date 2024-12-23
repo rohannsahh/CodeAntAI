@@ -87,10 +87,10 @@ Sign in with SSO
           <div className="text-center mb-4">
             <div className='flex justify-center  text-center'>
                 <img src={Logo} alt='logo' className='w-6 h-6 mx-2'/>
-                <h1 className='text-lg text-gray-700 font-light'>CodeAnt AI</h1>
+                <h1 className='text-xl text-gray-700 font-light'>CodeAnt AI</h1>
                 </div>
             <h2 className="text-2xl mt-6 font-semibold">Welcome to CodeAnt AI</h2>
-            <div className="flex justify-center mt-5 space-x-2 px-5">
+            <div className="flex  justify-center mt-5 space-x-2 px-5">
               <button className={`px-4 py-2 w-1/2 rounded-lg  focus:outline-none focus:ring transition duration-100 ease-in-out ${activeButton === 'SAAS' ? 'bg-blue-600 text-white focus:ring-blue-200' : 'bg-gray-100 text-gray-700 focus:ring-gray-300'}`}
 
               onClick={()=>{setActiveButton('SAAS')}}>SAAS</button>

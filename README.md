@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+To run locally   
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. git clone https://github.com/rohannsahh/CodeAntAI.git   
 
-Currently, two official plugins are available:
+2. npm install  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. npm run dev  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+My name is Rohan kumar . I am final year Btech IT undergrad at Bhartividyapeeth college of engineering. I would like to intern at CodeAnt AI.  
+I have completed the assignment . This exact same as the figma design , fully responsive for all screens.    
+ The total time i took to build this is around 5 hrs.
+The tech stack i have used is React + typescript + talwind css. I have created this from scratch using  react and raw talwind css without using any prebuilt design library.This is built using base design principles.     
 
-- Configure the top-level `parserOptions` property like this:
+Prior experience:
+1. frontend intern @Jm tech pvt ltd.  https://github.com/rohannsahh/frontendui  
+   worked on travelled based startup serving people travelling to europe for visa services . Built the whole frontend for the product from scratch to payment intergration. Proper error handling , state management to make product robust  
+2. full stack intern @Digital guruji   www.ai4chat.co
+    worked on a Ai startup working on automating workflow integration with zapier and other ai tools.  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Apart from that i worked as a freelancer for various dev projects including some beautiful frontend focussed websites
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Front-End: React, Redux, Next.js  
+Back-End: Node.js, Express.js, Prisma, Django  
+Databases: MongoDB, PostgreSQL, MySQL, Redis  
+Others: WebRTC, socket.io, AWS, Docker, ML algorithms  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Thank u     
+Looking forward to work with CodeAnt ai  
